@@ -1,0 +1,56 @@
+name: SuperSmelter
+main: com.axeldios.SuperSmelter.SuperSmelter
+version: 2.1c
+author: AxelDios
+website: http://dev.bukkit.org/bukkit-plugins/supersmelter/
+soft-depend: [Vault]
+
+commands:
+  ss:
+    description: SuperSmelter Commands
+    usage: /ss give {player} {type} 
+
+permissions:
+  supersmelter.1.craft:
+    description: Craft Type I SuperSmelters
+    default: op
+  supersmelter.1.place:
+    description: Place Type I SuperSmelters
+    default: false
+  supersmelter.1.use:
+    description: Use Type I SuperSmelters
+    default: false
+  supersmelter.1.buy:
+    description: Buy Type I SuperSmelters
+    default: false    
+  supersmelter.2.craft:
+    description: Craft Type II SuperSmelters
+    default: op
+  supersmelter.2.place:
+    description: Place Type II SuperSmelters
+    default: false
+  supersmelter.2.use:
+    description: Use Type II SuperSmelters
+    default: false
+  supersmelter.2.buy:
+    description: Buy Type II SuperSmelters
+    default: false    
+  supersmelter.3.craft:
+    description: Craft Type III SuperSmelters
+    default: op
+  supersmelter.3.place:
+    description: Place Type III SuperSmelters
+    default: false
+  supersmelter.3.use:
+    description: Use Type III SuperSmelters
+    default: false
+  supersmelter.3.buy:
+    description: Buy Type III SuperSmelters
+    default: false
+  supersmelter.give:
+    description: Give Command
+    default: op
+  supersmelter.sell:
+    description: Ability to setup frame shops
+    default: op
+ 
